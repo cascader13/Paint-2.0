@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="388.0" prefWidth="600.0" style="-fx-background-color: #D3D3D3;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane fx:id="pane" layoutX="-3.0" layoutY="89.0" prefHeight="299.0" onMouseDragged="#onActionFrag" prefWidth="606.0" style="-fx-background-color: #ffffff;" />
+      <Button id="RED" layoutX="14.0" layoutY="13.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #FF0000;" />
+      <Button id="DARKGREEN" layoutX="14.0" layoutY="50.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #800000;" />
+      <Button id="LIGHTBLUE" layoutX="55.0" layoutY="13.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #00FFFF;" />
+      <Button id="BLUE" layoutX="55.0" layoutY="50.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #0000FF;" />
+      <Button id="LIGHTGREEN" layoutX="98.0" layoutY="13.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #00FF00;" />
+      <Button id="GREEN" layoutX="98.0" layoutY="50.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #008000;" />
+      <Button id="YELLOW" layoutX="141.0" layoutY="13.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #FFFF00;" />
+      <Button id="ORANGE" layoutX="141.0" layoutY="50.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #FFA500;" />
+      <Button id="VIOLET" layoutX="183.0" layoutY="13.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #FF00FF;" />
+      <Button id="DARKVIOLET" layoutX="183.0" layoutY="50.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #800080;" />
+      <Button id="GREY" layoutX="226.0" layoutY="13.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #808080;" />
+      <Button id="BLACK" layoutX="226.0" layoutY="50.0" onAction="#onClickColor" mnemonicParsing="false" prefHeight="30.0" prefWidth="31.0" style="-fx-background-color: #000000;" />
+   </children>
+</Pane>
